@@ -1,0 +1,171 @@
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\WPF-LoginForm.exe.config
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\WPF-LoginForm.exe
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\WPF-LoginForm.pdb
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.AssemblyReference.cache
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Theme\ButtonStyle.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Theme\NavBarButton.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Theme\SearchBarTheme.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\HomeView.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\LoginView.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\MainView.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\UsersView.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\App.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm_MarkupCompile.cache
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm_MarkupCompile.lref
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\App.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\HomeView.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\LoginView.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\MainView.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\UsersView.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm.g.resources
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF_LoginForm.Properties.Resources.resources
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.GenerateResource.cache
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.CopyComplete
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm.exe
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm.pdb
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\RegistrationView.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\RegistrationView.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\ClientView.g.cs
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\ClientView.baml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\Google.Protobuf.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\MySql.Data.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Buffers.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Memory.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\ZstdNet.dll
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\Google.Protobuf.pdb
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\Google.Protobuf.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\MySql.Data.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Buffers.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Memory.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Carolina\Desktop\refWPF\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\WPF-LoginForm.exe.config
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\WPF-LoginForm.exe
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\WPF-LoginForm.pdb
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\Google.Protobuf.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\MySql.Data.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Buffers.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Memory.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\ZstdNet.dll
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\Google.Protobuf.pdb
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\Google.Protobuf.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\MySql.Data.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Buffers.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Memory.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.AssemblyReference.cache
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Theme\ButtonStyle.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Theme\NavBarButton.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Theme\SearchBarTheme.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\ClientView.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\HomeView.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\LoginView.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\MainView.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\RegistrationView.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\UsersView.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\App.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm_MarkupCompile.cache
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm_MarkupCompile.lref
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\App.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\ClientView.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\HomeView.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\LoginView.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\MainView.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\RegistrationView.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Views\UsersView.baml
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm.g.resources
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF_LoginForm.Properties.Resources.resources
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.GenerateResource.cache
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\Cineti-WPF.csproj.CopyComplete
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm.exe
+C:\Users\Carolina\Desktop\CINETI APP HERE\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\WPF-LoginForm.pdb
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\WPF-LoginForm.exe.config
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\WPF-LoginForm.exe
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\WPF-LoginForm.pdb
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\Google.Protobuf.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\MySql.Data.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Buffers.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Memory.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\ZstdNet.dll
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\Google.Protobuf.pdb
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\Google.Protobuf.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\MySql.Data.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Buffers.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Memory.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Cineti-WPF.csproj.AssemblyReference.cache
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Cineti-WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Theme\ButtonStyle.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Theme\NavBarButton.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Theme\SearchBarTheme.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\ClientView.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\HomeView.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\LoginView.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\MainView.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\RegistrationView.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\UsersView.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\App.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\WPF-LoginForm_MarkupCompile.cache
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\WPF-LoginForm_MarkupCompile.lref
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\App.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\ClientView.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\HomeView.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\LoginView.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\MainView.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\RegistrationView.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Views\UsersView.baml
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\WPF-LoginForm.g.resources
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\WPF_LoginForm.Properties.Resources.resources
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Cineti-WPF.csproj.GenerateResource.cache
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Cineti-WPF.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\Cineti-WPF.csproj.CopyComplete
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\WPF-LoginForm.exe
+C:\Users\Carolina\Desktop\New folder (3)\WPF-Cineti\obj\Debug\WPF-LoginForm.pdb

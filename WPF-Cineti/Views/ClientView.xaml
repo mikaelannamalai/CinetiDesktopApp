@@ -1,0 +1,640 @@
+﻿<UserControl x:Class="WPF_LoginForm.Views.ClientView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_LoginForm.Views" xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp" xmlns:viewmodels="clr-namespace:WPF_LoginForm.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:ClientViewModel}"
+             mc:Ignorable="d"
+             
+             d:DesignHeight="550" d:DesignWidth="500">
+
+    <Border Background="Beige"
+            CornerRadius="10">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="370"></RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Border
+                Background="Goldenrod"
+                CornerRadius="10" 
+                Padding="10">
+                    <DataGrid ColumnWidth="*"
+                              AutoGenerateColumns="False"
+                              ItemsSource="{Binding Path=Client, BindsDirectlyToSource=True}"
+                              SelectedItem="{Binding SelectedClient}"
+                  Background="beige"
+                  BorderThickness="0">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Foreground" Value="black"/>
+                                <Setter Property="Padding" Value="10,0,0,10"/>
+                                <Setter Property="FontFamily" Value="Montserrat"/>
+                                <Setter Property="FontSize" Value="15"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Name}" ClipboardContentBinding="{x:Null}" Header="Name" HeaderStringFormat=""/>
+                            <DataGridTextColumn Binding="{Binding Language}" ClipboardContentBinding="{x:Null}" Header="Language"/>
+                            <DataGridTextColumn Binding="{Binding DOB}" ClipboardContentBinding="{x:Null}" Header="Date Of Birth"/>
+                            <DataGridTextColumn Binding="{Binding phone}" ClipboardContentBinding="{x:Null}" Header="Phone"/>
+                            <DataGridTextColumn Binding="{Binding Email}" ClipboardContentBinding="{x:Null}" Header="Email"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Border>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="1" Grid.Column="0">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" x:Name="UserNLabel" Foreground="Black" Text="Name" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" />
+                    <TextBox Grid.Row="1"
+                         Grid.Column="0"
+                         x:Name="NameCliNBox"
+                         Text="{Binding Path=Name,UpdateSourceTrigger=PropertyChanged}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="5,5,5,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="Black"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                    </TextBox>
+                    <TextBlock Grid.Row="2" Grid.Column="0" x:Name="PasswordUserLabel" Foreground="Black" Text="Language" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,1,0,0" />
+                    <TextBox Grid.Row="3"
+                         Grid.Column="0"
+                         x:Name="languagerBox"
+                         Text="{Binding Path=Language,UpdateSourceTrigger=PropertyChanged}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="5,0,5,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="Black"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                    </TextBox>
+                    <TextBlock Grid.Row="4" Grid.Column="0"
+                           x:Name="ConfirmPassLabel" Foreground="Black" Text="Date Of Birth" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,1,0,0" />
+
+                    <TextBox Grid.Row="5"
+                         Grid.Column="0"
+                         x:Name="DOBClientBox"
+                         Text="{Binding Path= Dob,UpdateSourceTrigger=PropertyChanged}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="5,0,5,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="Black"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                    </TextBox>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                        <RowDefinition Height="Auto" MinHeight="30" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="1" x:Name="emailNLabel" Foreground="Black" Text="Email" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" />
+                    <TextBox Grid.Row="1"
+                         Grid.Column="0"
+                         x:Name="EmailNiNBox"
+                         Text="{Binding Path=Email,UpdateSourceTrigger=PropertyChanged}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="5,5,5,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="Black"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                    </TextBox>
+                    <TextBlock Grid.Row="2" Grid.Column="0" x:Name="addyerLabel" Foreground="Black" Text="Address" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,1,0,0" />
+                    <TextBox Grid.Row="3"
+                         Grid.Column="0"
+                         x:Name="addressBox"
+                         Text="{Binding Path=Address,UpdateSourceTrigger=PropertyChanged}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="5,0,5,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="Black"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                    </TextBox>
+                    <TextBlock Grid.Row="4" Grid.Column="0"
+                           x:Name="Cphoneel" Foreground="Black" Text="Phone" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,1,0,0" />
+
+                    <TextBox Grid.Row="5"
+                         Grid.Column="0"
+                         x:Name="PhoneClientBox"
+                         Text="{Binding Path= Phone,UpdateSourceTrigger=PropertyChanged}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="5,0,5,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="Black"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                    </TextBox>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        
+                    </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" MinHeight="30" />
+                            <RowDefinition Height="Auto" MinHeight="30" />
+                            <RowDefinition Height="Auto" MinHeight="30" />
+                            <RowDefinition Height="Auto" MinHeight="30" />
+                        </Grid.RowDefinitions>
+                    <Button Grid.Column="0" x:Name="ClientAddBtn" Command="{Binding Path=AddClientCommand}" Content="Add" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="70" Height="30"
+                                        CornerRadius="3"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Grid.Column="0" Grid.Row="1" x:Name="UpdateBtn" Command="{Binding Path=UpdateClientCommand}" Content="Update" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="70" Height="30"
+                                        CornerRadius="3"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Grid.Column="1" Grid.Row="1" x:Name="ClientDelBtn" Content="Delete" Command="{Binding Path=DeleteClientCommand}"  Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="70" Height="30"
+                                        CornerRadius="3"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Grid.Column="1" Grid.Row="0" x:Name="ClientShowBtn" Command="{Binding Path=ShowClientCommand}" Content="Refresh" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="70" Height="30"
+                                        CornerRadius="3"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Grid.Column="0" Grid.Row="2" x:Name="ClienteditBtn" Content="Edit" Command="{Binding Path=EditClientCommand,UpdateSourceTrigger=PropertyChanged}" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="70" Height="30"
+                                        CornerRadius="3"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Grid>
+
+
+
+    </Border>
+</UserControl>
+
+
+
+
+
+<!--   <Grid> //////old grid? maybe integrate.. reduce fields?
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250">
+
+                </ColumnDefinition>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Margin="10,10,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="30" />
+                    <RowDefinition Height="Auto" MinHeight="40" />
+                    <RowDefinition Height="Auto" MinHeight="50" />
+                    <RowDefinition Height="Auto" MinHeight="50" />
+                    <RowDefinition Height="Auto" MinHeight="50" />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" x:Name="UserNLabel" Foreground="Black" Text="UserName" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" />
+                <TextBox Grid.Row="1"
+                         Grid.Column="0"
+                         x:Name="UserNBox"
+                         Text="{}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="0,5,0,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="White"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                </TextBox>
+                <TextBlock Grid.Row="2" Grid.Column="0" x:Name="PasswordUserLabel" Foreground="Black" Text="Password" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,1,0,0" />
+                <TextBox Grid.Row="3"
+                         Grid.Column="0"
+                         x:Name="PasswordUserBox"
+                         Text="{}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="0,0,0,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="White"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                </TextBox>
+                <TextBlock Grid.Row="4" Grid.Column="0"
+                           x:Name="ConfirmPassLabel" Foreground="Black" Text="Confirm Password" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,1,0,0" />
+
+                <TextBox Grid.Row="5"
+                         Grid.Column="0"
+                         x:Name="ConfirmPassClientBox"
+                         Text="{}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="0,0,0,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="White"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                </TextBox>
+                <TextBlock Grid.Row="6" Grid.Column="0" x:Name="FirstNameLabel" Foreground="Black" Text="First Name" HorizontalAlignment="Center" Margin="0,10,0,0" />
+
+                <TextBox Grid.Row="7"
+                         Grid.Column="0"
+                         x:Name="FirstNameBox"
+                         Text="{}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="0,0,0,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="White"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                </TextBox>
+                <TextBlock Grid.Row="8" Grid.Column="0" x:Name="LNameLabel" Foreground="Black" Text="Last Name" HorizontalAlignment="Center" Margin="0,10,0,0" />
+
+                <TextBox Grid.Row="9"
+                         Grid.Column="0"
+                         x:Name="LNameUserBox"
+                         Text="{}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="0,0,0,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="White"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                </TextBox>
+                <TextBlock Grid.Row="10" Grid.Column="0" x:Name="EmailLabel" Foreground="Black" Text="Email" HorizontalAlignment="Center" Margin="0,10,0,0" />
+
+                <TextBox Grid.Row="11"
+                         Grid.Column="0"
+                         x:Name="EmailUserBox"
+                         Text="{}"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Margin="0,0,0,0"
+                         FontWeight="Medium"
+                         FontFamily="Montserrat"
+                         Background="Transparent"
+                         Foreground="White"
+                         CaretBrush="LightGray"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,5">
+                </TextBox>
+                <Grid Grid.Row="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" x:Name="ClientAddBtn" Content="Add" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="40"
+                                        CornerRadius="7"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Grid.Column="1" x:Name="ClientDelBtn" Content="Delete" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="40"
+                                        CornerRadius="7"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                   
+                </Grid>
+                <Grid Grid.Row="13">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" x:Name="ClienteditBtn" Content="Edit" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="40"
+                                        CornerRadius="7"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Grid.Column="1" x:Name="UpdateBtn" Content="Update" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="black" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4a3b60" />
+
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="40"
+                                        CornerRadius="7"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+                <Grid Grid.Row="14">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button  x:Name="ClientShowBtn" Content="Refresh List" Margin="0,5,0,0" Foreground="Goldenrod"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="Black" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#4a3b60" />
+
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Width="110" Height="40"
+                                        CornerRadius="7"
+                                        Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                 
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="2">
+            <Border Grid.Row="1"
+                Background="Goldenrod"
+                CornerRadius="10" 
+                Padding="10">
+                <DataGrid ColumnWidth="*"
+                  Background="beige"
+                  BorderThickness="0">
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Foreground" Value="black"/>
+                            <Setter Property="Padding" Value="10,0,0,10"/>
+                            <Setter Property="FontFamily" Value="Montserrat"/>
+                            <Setter Property="FontSize" Value="15"/>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="UserName" HeaderStringFormat=""/>
+                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Name"/>
+                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Surame"/>
+                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Email"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Border>
+
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>-->
